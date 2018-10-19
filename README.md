@@ -1,1 +1,1 @@
-Color identification game, where youi must identify the correct color based on the RGB given.
+Color identification game, where you must identify the correct color based on the RGB given.
