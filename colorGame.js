@@ -33,14 +33,14 @@ function setUpSquares () {
 			squares[i].addEventListener("click", function(){
 			var clickedColor = this.style.backgroundColor;
 			if (clickedColor === pickedColor){
-				messageDisplay.textContent = "You did it! Great job, Dad!";
+				messageDisplay.textContent = "You did it! Great job!";
 				changeColors(clickedColor);
 				h1.style.backgroundColor = clickedColor;
 				resetButton.textContent = "Play Again?";
 			}
 			else{
 				this.style.backgroundColor = "#232323";
-				messageDisplay.textContent = "Try Again, Wayne-O!"
+				messageDisplay.textContent = "Try Again!"
 			}
 		});
 	}
